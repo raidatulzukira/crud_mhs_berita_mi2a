@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardMahasiswa">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFD3E1"
+        tools:ignore="MissingConstraints"
+        android:padding="15sp"
+        >
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#FD3E7F"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fullname"
+            android:textColor="#00589D"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="email"
+            android:textColor="#00589D"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/tanggalDaftar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tanggal daftar"
+            android:textColor="#00589D"
+
+            android:textSize="15sp"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
